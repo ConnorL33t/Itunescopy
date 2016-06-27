@@ -11,6 +11,10 @@ function drawSongs(songList){
     for (var i = 0; i < songList.length; i++) {
     song=songList[i]
     elem=document.getElementById('songs-list')
-    elem.innerHTML+='<li>'+song.title+' by '+song.artist+' <br>  '+ song.collection+' for $'+song.price+'<img src='+song.albumArt+ '/>' +  '</li>'  }
+    elem.innerHTML+='<li>'+song.title+' by '+song.artist+' <br>  '+ song.collection+' for $'+song.price+'<img src='+song.albumArt+ '/>' +  '</li>' 
+    preview=document.getElementById('audio')
+    preview.innerHTML=song.previewUrl
+ 
+ }
 }
    
