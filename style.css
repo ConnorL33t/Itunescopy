@@ -1,0 +1,23 @@
+body { 
+  background: url(https://visualeks.com/wp-content/uploads/how-to-authorize-a-computer-on-iTunes.png) no-repeat center center fixed;
+  background-size: cover;
+}
+p {
+  text-align:center;
+}
+
+
+.form-group {
+    text-align:center;
+}
+
+.jumbotron {
+   background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background: rgba(200, 54, 54, 0.1); 
+}
+
+.form-control {
+    text-align:center;
+}
+
+
